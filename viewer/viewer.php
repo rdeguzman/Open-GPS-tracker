@@ -1,5 +1,5 @@
 <?php require_once '../library.php' ?>
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Open GPS-tracker map view</title>
@@ -11,20 +11,17 @@
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<link rel="stylesheet" href="viewer.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 <div id="map_canvas"></div>
 
 <div id="settings">
-	<div id="startstop" class="started">Stop</div>
-	<p>
-		<input type="checkbox" id="togglemap" name="togglemap" checked="checked"><label for="togglemap">Show o-map</label>
-	</p>
-	<div id="meta">
-		<ul id="runners"></ul>
-	</div>
+    <div id="startstop" class="started">Stop</div>
+    <ul id="runners"></ul>
+    </div>
 </div>
+
 </body>
 </html>
