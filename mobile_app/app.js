@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var socket = io.connect('http://YOUR SERVER:8080');
+    var socket = io.connect('http://192.168.4.223:8080');
 
     var latlon = {};
     while (!latlon.id) {

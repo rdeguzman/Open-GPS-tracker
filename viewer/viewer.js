@@ -6,7 +6,7 @@ $(document).ready(function () {
         map,
         runnerCount = 0,
         runners = [],
-        socketServer = 'http://YOR SOCKET SERVER HERE:8080';
+        socketServer = 'http://192.168.4.223:8080';
 
     function runner(json,id) {
         var data = [],

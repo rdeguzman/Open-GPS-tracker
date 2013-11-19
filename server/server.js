@@ -1,9 +1,9 @@
 var io = require('socket.io').listen(8080);
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-    host     : 'localhost',
-    user     : 'user',
-    password : 'pass',
+    host     : '192.168.4.223',
+    user     : 'root',
+    password : '',
     database : 'gpstracks'
 });
 
