@@ -29,7 +29,7 @@ function handle_incoming_request(req, res){
             json = JSON.parse(json_data);
           }
           catch (e) {
-            console.log(e);
+            console.log('Excaption: ' + e);
           }
 
           if(!json)
