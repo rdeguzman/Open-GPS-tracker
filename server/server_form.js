@@ -28,8 +28,11 @@ function handle_incoming_request(req, res){
           var obj = qs.parse(form_data);
           if (!obj)
             out = 'Form data did not parse';
-          else
-            out = 'Form data: ' + JSON.stringify(obj);
+          else {
+            var json = JSON.stringify(obj);
+            out = 'Form data: ' + json;
+            console.log(out);
+          }
         }
 
         res.end(out);
